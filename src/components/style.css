@@ -1,8 +1,10 @@
  .headerName {
-    margin-top: 2cm;
-    h1 {
-        font-size: 48px;
-    }
+    color: dimgray;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    font-size: 48px;
+    transform: translateX(-50%);
 }
    img {
     position: absolute;
@@ -24,10 +26,13 @@
    
    .homeButton,
    .search-button {
-    font-size: 30px;
     align-self: center;
     margin-right: 20px;
     cursor: pointer;
+   }
+
+   #homeBtn, #searchBtn {
+    font-size: 24px;
    }
 
    .body-container {

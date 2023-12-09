@@ -8,7 +8,7 @@
       </button>
     </div>
     <div class="search-button">
-      <button>
+      <button id="searchBtn">
         <i class="fas fa-search"></i>
       </button>
     </div>

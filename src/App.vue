@@ -1,14 +1,14 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <SolarteurStartseite/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SolarteurStartseite from './components/SolarteurStartseite.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SolarteurStartseite
   }
 }
 </script>
